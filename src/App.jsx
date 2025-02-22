@@ -9,13 +9,15 @@ import Profile from './pages/Profile';
 import CourseDetail from './pages/CourseDetail';
 import UploadActivity from './pages/UploadActivity';
 import NotFound from './pages/NotFound';
+import Navbar from './components/Navbar';
 
 
 function App() {
 
   return (
 <div>
-  <h1>Beaudemy</h1>
+  <Navbar />
+  <h1>Aprende y emprende</h1>
    <Routes>
     <Route path='/' element={<HomePage/>} />
     <Route path='/login' element={<Login/>} />
